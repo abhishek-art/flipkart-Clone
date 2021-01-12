@@ -1,0 +1,52 @@
+.mainCard{
+    background-color: white;
+    width: 90vw;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: gray;
+}
+
+.cardBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productWindow{
+    padding: 20px;
+    width: 220px;
+    height: 293.875px;
+}
+
+.productImage{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.productImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.productInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.productWindow:hover p{
+    color: #2874f0;
+    cursor: pointer;
+}

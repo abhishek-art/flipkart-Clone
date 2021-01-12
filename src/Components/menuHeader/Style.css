@@ -1,0 +1,50 @@
+.menuHeader .nav-item{
+    cursor: pointer;
+    position: static;
+    font-weight: bold;
+}
+
+.menuHeader .nav-item:hover{
+    color: #2874f0;
+}
+
+.menuHeader ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menuHeader .nav-item > ul{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    width: 100%;
+}
+
+.menuHeader a{
+    padding: 0.5rem 1rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.menuHeader a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.menuHeader .nav-item:hover ul{
+    visibility: visible;
+}
+
+.menuHeader .nav-item > ul > li > ul{
+    font-weight: normal;
+} 
+
+.menuHeader{
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    background-color: white;
+}
